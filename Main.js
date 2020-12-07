@@ -41,7 +41,7 @@ var mapa = new THREE.TextureLoader().load( "MyImages/chao1.png" );
 mapa.wrapS = THREE.RepeatWrapping;
 mapa.wrapT = THREE.RepeatWrapping;
 mapa.repeat.set(16, 16);
-var url = "cenario/mapa3.json";
+var url = "http://localhost:8000/cenario/mapa3.json";
 initMesh(url,mesh4, mapa, 0, 0, -10);
 
 
